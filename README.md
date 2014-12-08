@@ -5,7 +5,7 @@ hypercube architecture.
 
 When It's executed many processes are spawned recursively for the hypercube
 generation. After the spawning phase all the process wait a message via sockets,
-when It arives the process prints the received data and then replicate it for
+when It arrives the process prints the received data and then replicate it for
 other adjacent process in the hypercube.
 
 # Execution
@@ -14,7 +14,7 @@ v0.10.31.
 
 ```sh
 $ npm install
-$ node hc -d <dimension of the cube | 3 by default>
+$ node hc.js -d <dimension of the cube | 3 by default>
 ```
 
 Then just connect with the process 0 by the port 8100 and send whatever you
